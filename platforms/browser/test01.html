@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css" />
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <title>Hello World</title>
+</head>
+<body>
+<div data-role="page">
+  <div data-role="header" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#" class="ui-btn-active ui-state-persist">main</a></li>
+        <li><a href="#" class="">search</a></li>
+        <li><a href="#">other</a></li>
+      </ul>
+    </div>
+    <h1>欢迎访问我的主页</h1>
+    <a href="#" data-role="button" class="ui-btn-right">搜索</a>
+  </div>
+  <div data-role="content">
+    <div data-role="">
+      <div data-role="collapsible" data-collapsed="false">
+        <h1>click</h1>
+        <p>collapse</p>
+      </div>
+      <div data-role="collapsible" data-collapsed="false">
+        <h1>click</h1>
+        <p>collapse</p>
+      </div>
+    </div>
+    <p>我是一名移动开发者</p><p>我是一名移动开发者</p>
+    <p>我是一名移动开发者</p><p>我是一名移动开发者</p>
+    <p>我是一名移动开发者</p><p>我是一名移动开发者</p>
+    <p>我是一名移动开发者</p><p>我是一名移动开发者</p>
+    <p>我是一名移动开发者</p><p>我是一名移动开发者</p>
+    <p>我是一名移动开发者</p><p>我是一名移动开发者</p>
+    <p>我是一名移动开发者</p><p>我是一名移动开发者</p>
+    <p>我是一名移动开发者</p><p>我是一名移动开发者</p>
+    <p>我是一名移动开发者</p><p>我是一名移动开发者</p>
+    <p>我是一名移动开发者</p><p>我是一名移动开发者</p>
+    <p>我是一名移动开发者</p><p>我是一名移动开发者</p>
+    <p>我是一名移动开发者</p><p>我是一名移动开发者</p>
+    <p>我是一名移动开发者</p><p>我是一名移动开发者</p>
+    <p>我是一名移动开发者</p><p>我是一名移动开发者</p>
+    <p>我是一名移动开发者</p><p>我是一名移动开发者</p>
+
+
+    <div data-role="controlgroup" data-type="horizontal">
+      <a href="#" data-role="button" data-icon="search" data-iconpos="right">按钮</a>
+      <a href="#" data-role="button" data-icon="arrow-l" data-iconpos="notext">按钮</a>
+      <a href="#" data-role="button" data-icon="arrow-r">按钮</a>
+      <a href="#" data-role="button" data-icon="delete">按钮</a>
+      <a href="#" data-role="button" data-icon="info">按钮</a>
+      <a href="#" data-role="button" data-icon="home">按钮</a>
+      <a href="#" data-role="button" data-icon="grid">按钮</a>
+      <a href="#" data-role="button" data-icon="gear">按钮</a>
+      <a href="#" data-role="button" data-icon="back">按钮</a>
+      <a href="#" data-role="button" data-icon="forward">按钮</a>
+      <a href="#" data-role="button" data-icon="refresh">按钮</a>
+      <a href="#" data-role="button" data-icon="star">按钮</a>
+      <a href="#" data-role="button" data-icon="alert">按钮</a>
+      <a href="#" data-role="button" data-icon="plus">按钮</a>
+      <a href="#" data-role="button" data-icon="minus">按钮</a>
+    </div>
+    <div data-role="controlgroup" data-type="horizontal">
+      <a href="#" data-role="button">按钮</a>
+      <a href="#" data-role="button">按钮</a>
+      <a href="#" data-role="button">按钮</a>
+    </div>
+    <button>button</button>
+    <input type="button" value="button">
+    <a href="#" data-role="button" data-inline="true">button</a>
+    <a href="#pagetwo">to 2</a>
+  </div>
+  <div data-role="footer">
+    <p>页脚文本</p>
+  </div>
+</div>
+<div data-role="page" id="pageone">
+  <div data-role="content">
+    <div style="height: 667px;background: orange">
+      <img src="img/github-1.png" alt="" style="width: 18rem;">
+    </div>
+    <div style="height: 667px;background: orange">
+      <img src="img/github-2.png" alt="" style="width: 18rem;">
+    </div>
+    <div style="height: 667px;background: orange">
+      <img src="img/github-3.png" alt="" style="width: 18rem;">
+    </div>
+  </div>
+</div>
+<div data-role="page" id="pagetwo">
+  <a href="#pageone" data-transition="flip" data-direction="reverse">to 1</a>
+  <a href="#" data-rel="back" data-transition="flip" data-direction="reverse">back</a>
+</div>
+<script type="text/javascript" src="platform_www/cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
